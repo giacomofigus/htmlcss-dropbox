@@ -472,4 +472,121 @@ nav ul button:hover{
 }
 /* SECOND SECTION END */
 
+/* THIRD SECTION START*/
+.container-square{
+    display: flex;
+    justify-content: flex-start;
+
+    margin-top: 150px;
+    height: 550px;
+    border: 2px solid lime;
+}
+
+.container-square .width{
+    display: flex;
+    flex: 1 1 30%;
+
+    border: purple 1px solid;
+    height: 550px;
+}
+
+.container-square .left-square, .right-square{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-square .left-square div,.right-square div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 50%;
+    height: 50%;
+}
+
+.container-square .left-square div:first-child{
+    background: #A2D39B;
+    border-width: 15px 15px 15px 0;
+    border-style: solid;
+    border-color: #D1E9CD;
+}
+
+.container-square .left-square div:nth-child(2){
+    background-color: #61082B;
+}
+
+.container-square .left-square div:nth-child(3){
+    background-color: #0093CE;
+}
+
+.container-square .left-square div:nth-child(4){
+    background: #FF1C1C;
+}
+
+.container-square .left-square div svg, .right-square div svg{
+    fill: white;
+    width: 180px;
+}
+
+.container-square .center-square{
+    display: flex;
+    flex-direction: column;
+
+    background: #F5F5F5;
+    padding:  30px 50px;
+}
+
+.container-square .center-square p{
+    margin-block: 50px;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+
+.container-square .right-square div:first-child{
+    background: #D5001F;
+}
+
+.container-square .right-square div:nth-child(2){
+    background-color: #B4D0E7;
+}
+
+.container-square .right-square div:nth-child(3){
+    background: #0D2481;
+}
+
+.container-square .right-square div:nth-child(4){
+    background: #FFD830;
+}
+
+ .rectangle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 250px;
+    background-color:#B4D0E7 ;
+}
+
+.rectangle div{
+    display: flex;
+    align-items: start;
+    gap: 250px;
+}
+
+.rectangle div h2{
+    color: #61082B;
+    font-size: 40px;
+}
+
+.rectangle div button{
+    background-color: white;
+    border: none;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+/* THIRD SECTION END*/
+
 
