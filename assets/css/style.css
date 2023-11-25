@@ -172,9 +172,14 @@ nav ul button:hover{
 
 /* FIRST SECTION START */
 .first-section{
-    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
     background-color: white;
     margin-top: 50px;
+    border: 1px solid blue;
 }
 
 .first-section h2{
@@ -217,11 +222,12 @@ nav ul button:hover{
     display: flex;
     justify-content: center;
     gap: 70px;
+    width: 1260px;
+    border: 1px solid red;
 }
 
 .first-section .cards-container .card{
     border: 1px solid grey;
-    
 }
 
 .first-section .cards-container .top-card {
@@ -235,7 +241,7 @@ nav ul button:hover{
 .first-section .cards-container .main-card{
     display: flex;
     flex-direction: column;
-    padding: 0 30px;
+    padding: 0 20px;
     margin-top: 20px;
 }
 
@@ -251,6 +257,7 @@ nav ul button:hover{
 .first-section .cards-container .main-card ul{
     margin-top: 10px;
     font-weight: 300;
+    ;
 }
 
 .first-section .cards-container .main-card ul li{
@@ -286,7 +293,60 @@ nav ul button:hover{
     color: #0061FF;
 }
 
+/* BOTTOM-CARD */
+.card-bottom-container{
+    display: flex;
+    justify-content: center;
 
+    margin-top: 50px;
+    border: 1px solid green;
+}
+
+.card-bottom-container .card-bottom{
+    width: 1260px;
+    border: 1px solid purple;
+    
+}
+
+.top-card-bottom{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    border-bottom: 1px solid grey;
+    height: 50px;
+    width: 100%;
+}
+
+.card-bottom-container .card-bottom .main-bottom{
+    padding: 20px;
+    
+    position: relative;
+}
+
+.card-bottom-container .card-bottom .main-bottom button{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background-color: #0061FF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+}
+.card-bottom-container .card-bottom .main-bottom h3{
+    font-size: 25px;
+}
+
+
+.card-bottom-container .card-bottom .main-bottom h5{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.card-bottom-container .card-bottom .main-bottom p{
+    margin-top: 40px;
+    width: 600px;
+}
 /* FIRST SECTION END */
 
 
