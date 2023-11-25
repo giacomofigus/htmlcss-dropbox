@@ -25,7 +25,7 @@ header{
     /* border: 1px solid red; */
 }
 
-nav{
+header nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,19 +38,19 @@ nav{
     z-index: 1;
 }
 
-nav ul{
+header nav ul{
     display: flex;
     align-items: center;
     gap: 30px;
     
 }
 
-nav ul li{
+header nav ul li{
     /* border: 1px solid blue; */
     height: 100%;
 }
 
-nav ul li a{
+header nav ul li a{
     font-size: 18px;
     color: black;
     display: flex;
@@ -60,7 +60,7 @@ nav ul li a{
     position: relative;
 }
 
-nav ul li a::after{
+header nav ul li a::after{
     content: "";
     position: absolute;
     width: 100%;
@@ -73,13 +73,13 @@ nav ul li a::after{
     transition: transform  .5s; 
 }
 
-nav ul li a:hover::after{
+header nav ul li a:hover::after{
     z-index: 1;
     transform: scaleX(1);
     transform-origin: left;
 }
 
-nav ul button{
+header nav ul button{
     padding: 8px 10px;
     border: none;
     border-radius: 5px;
@@ -88,7 +88,7 @@ nav ul button{
     color: white;
 }
 
-nav ul button:hover{
+header nav ul button:hover{
     opacity: 0.8;
 }
 
@@ -622,5 +622,48 @@ nav ul button:hover{
 /* FOURTH SECTION END */
 
 /* FOOTER */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: black;
+    color: white;
+    margin-top: 200px;
+}
+
+footer nav{
+    display: flex;
+    gap: 100px;
+    padding-block: 100px;
+}
+
+footer nav ul:first-of-type li:nth-child(6) {
+    margin-bottom: 80px;
+}
+
+footer nav ul:first-of-type hr{
+    margin-bottom: 50px;
+}
+
+footer nav ul:first-of-type a{
+    font-weight: 300;
+}
+
+footer nav ul:first-of-type i{
+    margin-inline: 10px;
+}
+
+footer nav ul li:first-child{
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom:20px ;
+}
+
+footer nav ul li:not(:first-child){
+    line-height: 40px;
+    font-weight: 300;
+}
 
 
