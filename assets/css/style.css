@@ -589,4 +589,38 @@ nav ul button:hover{
 }
 /* THIRD SECTION END*/
 
+/* FOURTH SECTION START */
+.fourth-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 150px;
+}
+
+.fourth-section .box-question{
+    display: flex;
+    flex-direction: column;
+}
+
+.fourth-section .box-question h2{
+    font-size: 45px;
+    letter-spacing: 3px;
+    border-bottom: grey 1px solid;
+    padding-bottom: 50px;
+}
+
+.fourth-section .box-question div{
+    display: flex;
+    gap: 200px;
+    padding-block: 50px;
+    border-bottom: grey 1px solid ;
+}
+
+.fourth-section .box-question div p{
+    font-size: 20px;
+    font-weight: 500px;
+}
+
+/* FOURTH SECTION END */
 
