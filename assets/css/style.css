@@ -353,6 +353,8 @@ nav ul button:hover{
 .second-section{
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
     border: 1px solid red;
     margin-top: 200px;
 }
@@ -369,6 +371,7 @@ nav ul button:hover{
 
 .second-section .container-2 img{
     width: 650px;
+    display: block;
 }
 
 .second-section .container-2 .description-section2{
@@ -394,6 +397,56 @@ nav ul button:hover{
     background-color: white;
     border: none;
     border: 1px solid black;
+}
+
+/* Layout colonne */
+.second-section .col-layout-container{
+    display: flex;
+    justify-content: space-between;   
+    align-items: center;
+    flex-direction: column;
+    
+    margin-top: 100px;
+    border: 1px solid blue;
+    width: 1260px
+}
+
+.second-section .col-layout-container h2{
+    font-size: 40px;
+    
+}
+
+.second-section .col-layout-container .col-layout{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    margin-top: 30px;
+    border: 1px solid lime;
+}
+
+.second-section .col-layout-container .col-layout div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1 1 30%;
+
+    border: 1px solid red;
+    width: 300px;
+}
+
+.second-section .col-layout-container .col-layout div img{
+    width: 300px;
+}
+
+.second-section .col-layout-container .col-layout div h3{
+    font-size: 25px;
+}
+
+.second-section .col-layout-container .col-layout div p{
+    margin-top: 10px;
+    font-weight: 300;
 }
 /* SECOND SECTION END */
 
