@@ -506,9 +506,7 @@ nav ul button:hover{
 
 .container-square .left-square div:first-child{
     background: #A2D39B;
-    border-width: 15px 15px 15px 0;
-    border-style: solid;
-    border-color: #D1E9CD;
+    border: 15px solid #D1E9CD;
 }
 
 .container-square .left-square div:nth-child(2){
@@ -621,6 +619,8 @@ nav ul button:hover{
     font-size: 20px;
     font-weight: 500px;
 }
-
 /* FOURTH SECTION END */
+
+/* FOOTER */
+
 
