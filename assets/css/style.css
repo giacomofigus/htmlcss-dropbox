@@ -349,4 +349,51 @@ nav ul button:hover{
 }
 /* FIRST SECTION END */
 
+/* SECOND SECTION START */
+.second-section{
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+    margin-top: 200px;
+}
+
+.second-section .container-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+    border: 1px solid green;
+    width: 1260px;
+}
+
+.second-section .container-2 img{
+    width: 650px;
+}
+
+.second-section .container-2 .description-section2{
+    border: 1px solid lime;
+    width: 500px;
+    margin-right: 60px;
+}
+
+.second-section .container-2 .description-section2 h3{
+    font-size: 30px;
+}
+
+.second-section .container-2 .description-section2 p{
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.second-section .container-2 .description-section2 button{
+    margin-top: 30px;
+    padding:  15px 20px;
+    font-size: 16px;
+    background-color: white;
+    border: none;
+    border: 1px solid black;
+}
+/* SECOND SECTION END */
 
